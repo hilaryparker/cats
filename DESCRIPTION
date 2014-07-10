@@ -1,9 +1,13 @@
 Package: cats
-Title: What the package does (short line)
+Title: Cats
 Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (paragraph)
+Author: Hilary Parker <hilary@etsy.com> [aut, cre]
+Maintainer: Hilary Parker <hilary@etsy.com> 
+Authors@R: c( person("Hilary", "Parker", email = "hilary@etsy.com", role = c("aut", "cre")))
+Description: Mew.
 Depends:
     R (>= 3.0.2)
-License: What license is it under?
+License: MIT
 LazyData: true
+Suggests: 
+  testthat
