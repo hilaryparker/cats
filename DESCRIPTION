@@ -2,12 +2,17 @@ Package: cats
 Title: Cats
 Version: 0.1
 Author: Hilary Parker <hilary@etsy.com> [aut, cre]
-Maintainer: Hilary Parker <hilary@etsy.com> 
-Authors@R: c( person("Hilary", "Parker", email = "hilary@etsy.com", role = c("aut", "cre")))
+Maintainer: Hilary Parker <hilary@etsy.com>
+Authors@R: c( person("Hilary", "Parker", email = "hilary@etsy.com", role =
+    c("aut", "cre")))
 Description: Mew.
 Depends:
     R (>= 3.0.2)
+Imports:
+    httr,
+    ggplot2,
+    jpeg
 License: MIT
 LazyData: true
-Suggests: 
-  testthat
+Suggests:
+    testthat
